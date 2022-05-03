@@ -29,7 +29,6 @@
 		8D1FF7DA26EBA65A00DD857B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FF7D826EBA65A00DD857B /* LaunchScreen.storyboard */; };
 		8D1FF7E526EBA65A00DD857B /* AdamSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7E426EBA65A00DD857B /* AdamSampleProjectTests.swift */; };
 		8D1FF7F026EBA65A00DD857B /* AdamSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */; };
-		8D240F492821541900564213 /* AdamSampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D240F472821541900564213 /* AdamSampleProject.xcdatamodeld */; };
 		8D28657428196E320084172E /* HistoricalRates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657228196E320084172E /* HistoricalRates+CoreDataClass.swift */; };
 		8D28657528196E320084172E /* HistoricalRates +CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657328196E320084172E /* HistoricalRates +CoreDataProperties.swift */; };
 		8D286578281BFCC90084172E /* CurrencyCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D286577281BFCC80084172E /* CurrencyCompareViewController.swift */; };
@@ -37,6 +36,7 @@
 		8D28657C281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657B281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift */; };
 		8D286581281EA7040084172E /* FieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */; };
 		8D286582281EA7040084172E /* FieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D286580281EA7040084172E /* FieldCollectionViewCell.xib */; };
+		8D4FC6F5282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */; };
 		8D6BD99327EC958B00A2F3D6 /* APIDeclarations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD99227EC958B00A2F3D6 /* APIDeclarations.swift */; };
 		8D6BD99627ECB5DE00A2F3D6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD99527ECB5DE00A2F3D6 /* MasterViewController.swift */; };
 		8DB9FDF126EBBB9D007D4FF5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDED26EBBB9D007D4FF5 /* APIClient.swift */; };
@@ -99,7 +99,6 @@
 		8D1FF7EB26EBA65A00DD857B /* AdamSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamSampleProjectUITests.swift; sourceTree = "<group>"; };
 		8D1FF7F126EBA65A00DD857B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D240F482821541900564213 /* myWallStDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myWallStDemo.xcdatamodel; sourceTree = "<group>"; };
 		8D28657228196E320084172E /* HistoricalRates+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoricalRates+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8D28657328196E320084172E /* HistoricalRates +CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoricalRates +CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8D286577281BFCC80084172E /* CurrencyCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCompareViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		8D28657B281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRatesHistoryCollectionViewModel.swift; sourceTree = "<group>"; };
 		8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		8D286580281EA7040084172E /* FieldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldCollectionViewCell.xib; sourceTree = "<group>"; };
+		8D4FC6F4282157A500F8D9C3 /* AdamSampleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdamSampleProject.xcdatamodel; sourceTree = "<group>"; };
 		8D6BD99227EC958B00A2F3D6 /* APIDeclarations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDeclarations.swift; sourceTree = "<group>"; };
 		8D6BD99527ECB5DE00A2F3D6 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = "AdamSampleProject/View Controllers/MasterViewController.swift"; sourceTree = SOURCE_ROOT; };
 		8DB9FDED26EBBB9D007D4FF5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -323,7 +323,7 @@
 		8D7E064926F943C2003B7BAA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8D240F472821541900564213 /* AdamSampleProject.xcdatamodeld */,
+				8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -485,7 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBFD55F281FFF7400FEDAE6 /* Threading.swift in Sources */,
-				8D240F492821541900564213 /* AdamSampleProject.xcdatamodeld in Sources */,
+				8D4FC6F5282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld in Sources */,
 				8DBFD56B28204D1E00FEDAE6 /* KeyboardExtension.swift in Sources */,
 				8D6BD99627ECB5DE00A2F3D6 /* MasterViewController.swift in Sources */,
 				8D02A0522816CF14005FE37D /* Rates+CoreDataProperties.swift in Sources */,
@@ -860,12 +860,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8D240F472821541900564213 /* AdamSampleProject.xcdatamodeld */ = {
+		8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8D240F482821541900564213 /* myWallStDemo.xcdatamodel */,
+				8D4FC6F4282157A500F8D9C3 /* AdamSampleProject.xcdatamodel */,
 			);
-			currentVersion = 8D240F482821541900564213 /* myWallStDemo.xcdatamodel */;
+			currentVersion = 8D4FC6F4282157A500F8D9C3 /* AdamSampleProject.xcdatamodel */;
 			path = AdamSampleProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
