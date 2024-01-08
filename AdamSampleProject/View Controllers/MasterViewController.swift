@@ -24,10 +24,11 @@ class MasterViewController: UIViewController, ViewWithViewModel, UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableViewModel = WeatherTableViewModel.init()
-        
         assert(self.tableViewModel != nil)
         
+        locationEntryField.clearButtonMode = .whileEditing
         locationEntryField.delegate = self
+        
         self.tableViewModel.viewWillAppear()
         self.tableViewModel.viewDidLoadActions()
         self.configureView()
@@ -48,7 +49,6 @@ class MasterViewController: UIViewController, ViewWithViewModel, UITableViewDele
     
     //MARK: UI Component Setup
      func configureView() {
-         locationEntryField.clearButtonMode = .whileEditing
          setUpTable()
     }
     
