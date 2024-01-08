@@ -25,7 +25,6 @@
 		8D1FF7DA26EBA65A00DD857B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FF7D826EBA65A00DD857B /* LaunchScreen.storyboard */; };
 		8D1FF7E526EBA65A00DD857B /* AdamSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7E426EBA65A00DD857B /* AdamSampleProjectTests.swift */; };
 		8D1FF7F026EBA65A00DD857B /* AdamSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */; };
-		8D28657A281E9F320084172E /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D286579281E9F310084172E /* CollectionViewModel.swift */; };
 		8D286581281EA7040084172E /* FieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */; };
 		8D286582281EA7040084172E /* FieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D286580281EA7040084172E /* FieldCollectionViewCell.xib */; };
 		8D4FC6F5282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */; };
@@ -92,7 +91,6 @@
 		8D1FF7EB26EBA65A00DD857B /* AdamSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamSampleProjectUITests.swift; sourceTree = "<group>"; };
 		8D1FF7F126EBA65A00DD857B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D286579281E9F310084172E /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
 		8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		8D286580281EA7040084172E /* FieldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldCollectionViewCell.xib; sourceTree = "<group>"; };
 		8D4FC6F4282157A500F8D9C3 /* AdamSampleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdamSampleProject.xcdatamodel; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 			children = (
 				8D0A76BA26EBD71E009E7D0D /* TableViewModel.swift */,
 				8D0A76B426EBD598009E7D0D /* WeatherTableViewModel.swift */,
-				8D286579281E9F310084172E /* CollectionViewModel.swift */,
 				8D0A76B626EBD651009E7D0D /* ViewWithViewModelProtocol.swift */,
 				8D0A76B826EBD673009E7D0D /* ViewModelProtocol.swift */,
 			);
@@ -495,7 +492,6 @@
 				8DB9FE0826EBBBEF007D4FF5 /* HTTPParameter.swift in Sources */,
 				8DB9FDFE26EBBBE8007D4FF5 /* DecodableModels.swift in Sources */,
 				8DBFD56D28204F8400FEDAE6 /* Strings.swift in Sources */,
-				8D28657A281E9F320084172E /* CollectionViewModel.swift in Sources */,
 				8D0967E526EE0824002E18F1 /* (null) in Sources */,
 				8D0A76B926EBD673009E7D0D /* ViewModelProtocol.swift in Sources */,
 				8D53168E2B4C02D50030D943 /* CellSizings.swift in Sources */,
