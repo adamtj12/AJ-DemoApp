@@ -7,8 +7,6 @@ import CoreData
 
 class AdamSampleProjectTests: XCTestCase {
     var weather: WeatherInformation?
-    //    var rates: Rates?
-    //    var valuesToCompare = [Dictionary<String,RatesValues>].init()
     let uniqueIdentifier: String = "id"
     let apiClient = APIClient()
     var weatherData: [NSManagedObject] = []
