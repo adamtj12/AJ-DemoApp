@@ -7,7 +7,7 @@ class VerticleTitleTwoSubTitleTableViewCell: TitleTwoSubTitleTableViewCell {
 
     @IBOutlet weak var tempLabel: UILabel! {
         didSet {
-            apparemntTempLabel.textColor = UIColor.white
+            apparentTempLabel.textColor = UIColor.white
         }
     }
 
@@ -24,9 +24,9 @@ class VerticleTitleTwoSubTitleTableViewCell: TitleTwoSubTitleTableViewCell {
         }
     }
 
-    @IBOutlet weak var apparemntTempLabel: UILabel! {
+    @IBOutlet weak var apparentTempLabel: UILabel! {
         didSet {
-            apparemntTempLabel.textColor = UIColor.white
+            apparentTempLabel.textColor = UIColor.white
         }
     }
 
