@@ -17,9 +17,6 @@ class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
             titleLabel.textColor = UIColor.white
         }
     }
-    
-
-
 
     @IBOutlet weak var favouriteToggle: UISwitch!
     
