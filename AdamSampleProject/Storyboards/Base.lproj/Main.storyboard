@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Currencies-->
+        <!--Weather-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Currencies" id="BYZ-38-t0r" customClass="CurrencyViewController" customModule="AdamSampleProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Weather" id="BYZ-38-t0r" customClass="WeatherInformationViewController" customModule="AdamSampleProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bhX-q7-MSv">
-                                <rect key="frame" x="42" y="88" width="331" height="574"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bhX-q7-MSv">
+                                <rect key="frame" x="3" y="427" width="408" height="309"/>
+                                <color key="backgroundColor" name="AccentColor"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" name="AccentColor"/>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4rD-kS-IwL">
+                                <rect key="frame" x="3" y="108" width="408" height="289"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="289" id="yaL-aq-n2d"/>
+                                </constraints>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" name="AccentColor"/>
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5i-dL-bAM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" name="AccentColor"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
@@ -33,30 +43,20 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="€- Exchange" id="VDh-MT-Wzj">
+                                    <navigationItem title="Weather" id="VDh-MT-Wzj">
                                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="YNO-7k-QeX">
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="refreshPressed:" destination="BYZ-38-t0r" id="Wp1-Kr-lEr"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Enable Compare" id="hIL-lA-vbI">
-                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <connections>
-                                                <action selector="toggleSelection:" destination="BYZ-38-t0r" id="Qdb-2T-5mm"/>
-                                            </connections>
-                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJH-Tj-8ET">
-                                <rect key="frame" x="276" y="44" width="97" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="gqz-rR-x0s"/>
-                                    <constraint firstAttribute="height" constant="34" id="tyU-FO-OTc"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJH-Tj-8ET">
+                                <rect key="frame" x="126" y="69" width="285" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
                                 </userDefinedRuntimeAttributes>
@@ -64,93 +64,52 @@
                                     <action selector="began:" destination="BYZ-38-t0r" eventType="editingChanged" id="JxA-ZW-McW"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EUR" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztE-5N-Odu">
-                                <rect key="frame" x="143" y="52" width="129" height="20"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select to compare below:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hd-Kt-5rG">
-                                <rect key="frame" x="42" y="45" width="187" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Search Locations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztE-5N-Odu">
+                                <rect key="frame" x="3" y="75" width="121" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="w7M-q8-W1P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="AccentColor"/>
                         <constraints>
-                            <constraint firstItem="bhX-q7-MSv" firstAttribute="top" secondItem="z5i-dL-bAM" secondAttribute="top" constant="88" id="512-uO-SUj"/>
-                            <constraint firstItem="ztE-5N-Odu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="6Us-Qj-Lb8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bhX-q7-MSv" secondAttribute="bottom" constant="25" id="9Uf-30-C6M"/>
-                            <constraint firstItem="bhX-q7-MSv" firstAttribute="top" secondItem="nJH-Tj-8ET" secondAttribute="bottom" constant="10" id="Art-gv-PX2"/>
-                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="leading" secondItem="ztE-5N-Odu" secondAttribute="trailing" constant="4" id="BSY-Yj-roS"/>
-                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="Ddc-Lp-VGQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nJH-Tj-8ET" secondAttribute="trailing" constant="41" id="HLU-RX-zS9"/>
-                            <constraint firstItem="z5i-dL-bAM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I9j-Ar-Xe8"/>
-                            <constraint firstItem="bhX-q7-MSv" firstAttribute="top" secondItem="2hd-Kt-5rG" secondAttribute="bottom" constant="7" id="TUF-oL-yLj"/>
-                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="leading" secondItem="2hd-Kt-5rG" secondAttribute="trailing" constant="47" id="VXK-dc-Hk6"/>
-                            <constraint firstItem="2hd-Kt-5rG" firstAttribute="top" secondItem="nJH-Tj-8ET" secondAttribute="top" constant="1" id="biY-ty-8n8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhX-q7-MSv" secondAttribute="trailing" constant="41" id="fbt-Iq-6YM"/>
-                            <constraint firstItem="z5i-dL-bAM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h9n-G7-v9E"/>
-                            <constraint firstItem="bhX-q7-MSv" firstAttribute="top" secondItem="ztE-5N-Odu" secondAttribute="bottom" constant="16" id="jGx-Vx-aCd"/>
-                            <constraint firstItem="2hd-Kt-5rG" firstAttribute="centerY" secondItem="ztE-5N-Odu" secondAttribute="centerY" constant="1" id="lBl-Ao-XBw"/>
-                            <constraint firstItem="bhX-q7-MSv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="mGJ-91-CP9"/>
-                            <constraint firstItem="ztE-5N-Odu" firstAttribute="top" secondItem="z5i-dL-bAM" secondAttribute="bottom" constant="7" id="pOt-c6-D2T"/>
-                            <constraint firstItem="2hd-Kt-5rG" firstAttribute="leading" secondItem="bhX-q7-MSv" secondAttribute="leading" id="ppy-NI-ITm"/>
-                            <constraint firstItem="z5i-dL-bAM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t89-sD-L5K"/>
+                            <constraint firstItem="z5i-dL-bAM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4DZ-Xj-bXe"/>
+                            <constraint firstItem="ztE-5N-Odu" firstAttribute="centerY" secondItem="nJH-Tj-8ET" secondAttribute="centerY" id="AFm-QM-Tsl"/>
+                            <constraint firstItem="4rD-kS-IwL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="IMR-ic-7rL"/>
+                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="leading" secondItem="ztE-5N-Odu" secondAttribute="trailing" constant="2" id="JDt-C8-JJn"/>
+                            <constraint firstItem="z5i-dL-bAM" firstAttribute="centerX" secondItem="4rD-kS-IwL" secondAttribute="centerX" id="NGk-Tn-xkL"/>
+                            <constraint firstItem="z5i-dL-bAM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ORf-4c-DHD"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="bhX-q7-MSv" secondAttribute="bottom" constant="-49" id="WGv-f5-0V8"/>
+                            <constraint firstItem="4rD-kS-IwL" firstAttribute="top" secondItem="ztE-5N-Odu" secondAttribute="bottom" constant="11" id="acI-po-Cqs"/>
+                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="top" secondItem="z5i-dL-bAM" secondAttribute="bottom" constant="5" id="and-0O-jEc"/>
+                            <constraint firstItem="nJH-Tj-8ET" firstAttribute="trailing" secondItem="4rD-kS-IwL" secondAttribute="trailing" id="lxL-Y8-I5C"/>
+                            <constraint firstItem="bhX-q7-MSv" firstAttribute="top" secondItem="4rD-kS-IwL" secondAttribute="bottom" constant="30" id="mbv-ii-f6w"/>
+                            <constraint firstItem="4rD-kS-IwL" firstAttribute="centerX" secondItem="bhX-q7-MSv" secondAttribute="centerX" id="oXe-JC-V2R"/>
+                            <constraint firstItem="4rD-kS-IwL" firstAttribute="top" secondItem="nJH-Tj-8ET" secondAttribute="bottom" constant="5" id="r9h-jS-fvR"/>
+                            <constraint firstItem="z5i-dL-bAM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rwp-jF-HOV"/>
+                            <constraint firstItem="ztE-5N-Odu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="sn9-y9-8AT"/>
+                            <constraint firstItem="bhX-q7-MSv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="vNh-Pd-K6n"/>
                         </constraints>
                     </view>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="compareButton" destination="hIL-lA-vbI" id="x54-Eh-jaz"/>
-                        <outlet property="compareLabel" destination="2hd-Kt-5rG" id="5qQ-wP-2rN"/>
-                        <outlet property="currencyEntryField" destination="nJH-Tj-8ET" id="YCh-0e-0AM"/>
+                        <outlet property="locationEntryField" destination="nJH-Tj-8ET" id="lLI-O5-rb0"/>
+                        <outlet property="searchView" destination="4rD-kS-IwL" id="0Qa-Ue-eYj"/>
                         <outlet property="tableView" destination="bhX-q7-MSv" id="9WM-Eb-4Q0"/>
-                        <segue destination="bZ2-7g-adU" kind="presentation" identifier="showSelection" modalPresentationStyle="pageSheet" id="WNA-f9-UWb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3703.125" y="-416.19718309859155"/>
-        </scene>
-        <!--Compare-->
-        <scene sceneID="b4e-aI-zw5">
-            <objects>
-                <viewController title="Compare" id="bZ2-7g-adU" customClass="CurrencyCompareViewController" customModule="AdamSampleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6xa-xP-UoP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QPw-Gp-Mq7">
-                                <rect key="frame" x="0.0" y="12" width="414" height="641"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aAZ-vj-YQX">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                            </collectionView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="8Ja-he-gbd"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="QPw-Gp-Mq7" firstAttribute="bottom" secondItem="8Ja-he-gbd" secondAttribute="bottom" constant="-63" id="K9N-c4-8y5"/>
-                            <constraint firstItem="QPw-Gp-Mq7" firstAttribute="top" secondItem="8Ja-he-gbd" secondAttribute="top" constant="12" id="US7-7F-FJq"/>
-                            <constraint firstItem="QPw-Gp-Mq7" firstAttribute="leading" secondItem="8Ja-he-gbd" secondAttribute="leading" id="eiE-QI-ai2"/>
-                            <constraint firstItem="QPw-Gp-Mq7" firstAttribute="centerX" secondItem="6xa-xP-UoP" secondAttribute="centerX" id="kWI-ED-nMG"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="RWK-gn-jEj"/>
-                    <connections>
-                        <outlet property="ratesCollectionView" destination="QPw-Gp-Mq7" id="Gbr-AD-8ZX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eUO-S2-fbM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2857" y="-415"/>
+            <point key="canvasLocation" x="-3704.347826086957" y="-416.57608695652175"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

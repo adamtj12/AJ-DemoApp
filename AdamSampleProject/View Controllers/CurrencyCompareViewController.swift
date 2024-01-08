@@ -34,7 +34,6 @@ class CurrencyCompareViewController: UIViewController, UICollectionViewDelegate,
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        ratesCollectionView?.register(UINib(nibName: "FieldCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FieldCell")
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -8,8 +8,8 @@ class CurrencyRatesHistoryCollectionViewModel: CollectionViewModel {
     var containingVC: UIViewController!
     var rowSelectedAction: TableViewRowSelectedAction?
     var title: String = ""
-    var valuesToCompare = [Dictionary<String,RatesValues>].init()
-    var valuesToCompareSorted = [[Dictionary<String, RatesValues>.Element]].init()
+//    var valuesToCompare = [Dictionary<String,RatesValues>].init()
+//    var valuesToCompareSorted = [[Dictionary<String, RatesValues>.Element]].init()
     var currencyMultiplier = Double.init()
     
     func titleForSection(_ section: Int) -> String {

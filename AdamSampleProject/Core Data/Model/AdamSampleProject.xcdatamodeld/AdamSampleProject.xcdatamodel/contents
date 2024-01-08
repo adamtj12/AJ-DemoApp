@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="HistoricalRates" representedClassName=".HistoricalRates" syncable="YES">
-        <attribute name="base" optional="YES" attributeType="String"/>
-        <attribute name="date" optional="YES" attributeType="String"/>
-        <attribute name="historical" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="success" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
-        <relationship name="ratesvalues" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RatesValues" inverseName="relationship1" inverseEntity="RatesValues"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="WeatherInformation" representedClassName=".WeatherInformation" syncable="YES">
+        <attribute name="apparentTemperature" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cloudCover" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="interval" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rain" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="Float" usesScalarValueType="YES"/>
+        <attribute name="windDirection" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="windGusts" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
-    <entity name="Rates" representedClassName=".Rates" syncable="YES">
-        <attribute name="base" optional="YES" attributeType="String"/>
-        <attribute name="date" optional="YES" attributeType="String"/>
-        <attribute name="success" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
-        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
-        <relationship name="ratesvalues" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RatesValues" inverseName="relationship" inverseEntity="RatesValues"/>
-    </entity>
-    <entity name="RatesValues" representedClassName=".RatesValues" syncable="YES">
-        <attribute name="currency" optional="YES" attributeType="String"/>
-        <attribute name="value" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
-        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Rates" inverseName="ratesvalues" inverseEntity="Rates"/>
-        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricalRates" inverseName="ratesvalues" inverseEntity="HistoricalRates"/>
-    </entity>
-    <elements>
-        <element name="HistoricalRates" positionX="-7461" positionY="-1548" width="128" height="119"/>
-        <element name="Rates" positionX="-7590.1640625" positionY="-1703.6015625" width="128" height="104"/>
-        <element name="RatesValues" positionX="-7586.58984375" positionY="-1527.91015625" width="128" height="89"/>
-    </elements>
 </model>

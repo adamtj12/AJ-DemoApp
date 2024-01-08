@@ -1172,5 +1172,797 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ED6D2C0-4675-470C-A870-A4D202CDAC09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/API/requests/GetExchangeRates.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "GetWeatherInformation"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7AAA677-ECE1-4C09-A72E-EB2DDF8188FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "configureCellForRate(_:object:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB083E59-AB68-4C5E-9481-A63ADE711301"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "setUpPersistentStorage(searchText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BB083E59-AB68-4C5E-9481-A63ADE711301 - e68769a884fa7547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.setUpPersistentStorage(isFavorites: Swift.Bool) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BB083E59-AB68-4C5E-9481-A63ADE711301 - 8168ade3317f7664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.setUpPersistentStorage(searchText: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "BB083E59-AB68-4C5E-9481-A63ADE711301 - 8168ade3317f7664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.setUpPersistentStorage(searchText: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getGeolocation(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC - 7e9be63f450f45de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC - 1fdf9241d2953be7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;AdamSampleProject.Geolocation, Swift.Error&gt;) -&gt; () in AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC - 6bfd1f6316215fa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;AdamSampleProject.Geolocation&gt;, Swift.Error&gt;) -&gt; () in AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC - 7e9be63f450f459c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "F014B655-8C85-45AF-8E57-D55057E53CBC - 6bfd1f6316215fe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;AdamSampleProject.Geolocation&gt;, Swift.Error&gt;) -&gt; () in AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB168EBA-1168-4202-9144-54471B6B2D45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/Cells/Title+TwoSubTitleTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB168EBA-1168-4202-9144-54471B6B2D45 - b0040ce200bb6840"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.TitleTwoSubTitleTableViewCell.thirdSubtitleLabel.didset : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/Cells/Title+TwoSubTitleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "AB168EBA-1168-4202-9144-54471B6B2D45 - ea13f049d752cabf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.TitleTwoSubTitleTableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/Cells/Title+TwoSubTitleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "AB168EBA-1168-4202-9144-54471B6B2D45 - ea13f049d752cb45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.TitleTwoSubTitleTableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/Cells/Title+TwoSubTitleTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DA36BEC-0886-4341-8F98-4C8570D4DC6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getCellNibs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DA36BEC-0886-4341-8F98-4C8570D4DC6E - 840f3030627ff7fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getCellNibs() -&gt; Swift.Optional&lt;Swift.Array&lt;(nib: __C.UINib, identifier: Swift.String)&gt;&gt;"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "2DA36BEC-0886-4341-8F98-4C8570D4DC6E - 840f3030627ff7fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getCellNibs() -&gt; Swift.Optional&lt;Swift.Array&lt;(nib: __C.UINib, identifier: Swift.String)&gt;&gt;"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8331BF5A-1674-4D92-B010-5F62CBB348B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "setUpTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF95E069-E641-43F8-8B1D-DA60911041ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "configureCellForSearch(_:object:indexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "592BBB52-1A7A-456C-99B3-FBD17A5F322A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getGeolocation(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "592BBB52-1A7A-456C-99B3-FBD17A5F322A - 7e9be63f450f4761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "592BBB52-1A7A-456C-99B3-FBD17A5F322A - 6b577ae671d243d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Any) -&gt; () in closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53A106F4-07AE-413A-9704-C9BCC2D6A642"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/CurrencyTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getGeolocation(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53A106F4-07AE-413A-9704-C9BCC2D6A642 - 7e9be63f450f4761"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "53A106F4-07AE-413A-9704-C9BCC2D6A642 - 6b577ae671d243f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Any) -&gt; () in closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in AdamSampleProject.CurrencyTableViewModel.getGeolocation(text: Swift.String) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/CurrencyTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C61D8A8A-2902-43F3-AA5D-28C2C2D46B27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Models/WeatherTableViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "configureCellForWeather(_:object:indexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C61D8A8A-2902-43F3-AA5D-28C2C2D46B27 - bce66a995ebf3ccb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.WeatherTableViewModel.configureCellForRate(_: AdamSampleProject.DefaultTableViewCell, object: Swift.Array&lt;AdamSampleProject.WeatherInformation&gt;, indexPath: Foundation.IndexPath) -&gt; AdamSampleProject.DefaultTableViewCell"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/WeatherTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "C61D8A8A-2902-43F3-AA5D-28C2C2D46B27 - bce66a995ebf3ccb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.WeatherTableViewModel.configureCellForRate(_: AdamSampleProject.DefaultTableViewCell, object: Swift.Array&lt;AdamSampleProject.WeatherInformation&gt;, indexPath: Foundation.IndexPath) -&gt; AdamSampleProject.DefaultTableViewCell"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/WeatherTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "C61D8A8A-2902-43F3-AA5D-28C2C2D46B27 - bce66a995ebf3ccb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.WeatherTableViewModel.configureCellForRate(_: AdamSampleProject.DefaultTableViewCell, object: Swift.Array&lt;AdamSampleProject.WeatherInformation&gt;, indexPath: Foundation.IndexPath) -&gt; AdamSampleProject.DefaultTableViewCell"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Models/WeatherTableViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEDA259F-C8BF-4C82-B8AE-A4AFC3FF2928"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/API/requests/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "send(_:endpoint:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "354FC55F-97F9-4CC1-92BA-05CE2EF637F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "354FC55F-97F9-4CC1-92BA-05CE2EF637F8 - b11c5ba38edc1aa8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.textFieldDidBeginEditing(__C.UITextField) -&gt; ()"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "354FC55F-97F9-4CC1-92BA-05CE2EF637F8 - 9b8fc5d099e29818"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "354FC55F-97F9-4CC1-92BA-05CE2EF637F8 - 9b8fc5d099e28711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "354FC55F-97F9-4CC1-92BA-05CE2EF637F8 - 9b8fc5d099e28711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDC4A0DA-F786-4A5C-8446-15755E8947CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProjectTests/AdamSampleProjectTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "testGettingLatAndLonFromLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B809891-5F43-4185-A333-AFCDF647A37F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProjectTests/AdamSampleProjectTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testGettingLatAndLonFromLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B809891-5F43-4185-A333-AFCDF647A37F - 7fefe1a433a5f114"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in AdamSampleProjectTests.AdamSampleProjectTests.testGettingLatAndLonFromLocation() -&gt; ()"
+                  moduleName = "AdamSampleProjectTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProjectTests/AdamSampleProjectTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "6B809891-5F43-4185-A333-AFCDF647A37F - 7fefe1a433a5f114"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in closure #1 (Swift.Result&lt;Any, Swift.Error&gt;) -&gt; () in AdamSampleProjectTests.AdamSampleProjectTests.testGettingLatAndLonFromLocation() -&gt; ()"
+                  moduleName = "AdamSampleProjectTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProjectTests/AdamSampleProjectTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C175929A-297E-4F8A-9245-00D210722069"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProjectTests/AdamSampleProjectTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "testGettingWeatherAndPersisitingData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E07EE8A-8B0E-44BD-8CB2-216B51D5FE21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProjectTests/AdamSampleProjectTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "testGettingWeatherAndPersisitingData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F68BB2D2-0404-4102-8EAE-D90CE8733DFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F68BB2D2-0404-4102-8EAE-D90CE8733DFC - d3c7bb2484ae6e3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "F68BB2D2-0404-4102-8EAE-D90CE8733DFC - d3c7bb2484ae6e5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95B09FE5-4ECC-485E-BA01-62EF6286FBB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95B09FE5-4ECC-485E-BA01-62EF6286FBB0 - 85d02b78e2021e2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "95B09FE5-4ECC-485E-BA01-62EF6286FBB0 - 85d02b78e2021e0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdamSampleProject.MasterViewController.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "AdamSampleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adamjohnston/iCloud%20Drive%20(Archive)/Desktop/CurrencyExchangeExampleWithPersistentDataDemo/AdamSampleProject/CurrencyExchangeDemo/AdamSampleProject/View%20Controllers/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0D80C69-5123-4F2B-9E1C-CB6F7AB4AC53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdamSampleProject/View Controllers/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "setUpTable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
