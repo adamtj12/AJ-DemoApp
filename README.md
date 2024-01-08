@@ -1,5 +1,5 @@
-# CurrencyExchangeDemo
+# AJ-DemoApp
  
-To open project, simply press the .xcodeproj file and the whole project should be runnable.
+To open project, simply press the .xcodeproj file and the whole project should be runnable. There are some sample tests testing basic logic as well.
 
-The API access key is using the most basic usage allowance, therefore after 100 requests the access key stops working and needs changed to a new trial account or alternatively to sign up for a more premium API package.
+The API access key seemed to be required after a few requests targeting the geolocation website, so I have added an access key. 
