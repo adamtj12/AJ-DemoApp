@@ -104,10 +104,10 @@
                 <constraint firstItem="bg5-NH-ESi" firstAttribute="leading" secondItem="fZb-SU-yAH" secondAttribute="leading" constant="3" id="zBk-H2-b28"/>
             </constraints>
             <connections>
-                <outlet property="apparemntTempLabel" destination="xhM-uD-ELD" id="CKU-Cx-fn0"/>
+                <outlet property="apparentTempLabel" destination="JCT-Yp-GP1" id="9al-bc-RjE"/>
                 <outlet property="cloudCoverLabel" destination="JAQ-hS-Qru" id="wb8-Ca-42V"/>
                 <outlet property="intervalLabel" destination="UT1-Jp-xcl" id="5UE-OA-M7j"/>
-                <outlet property="rainLabel" destination="JCT-Yp-GP1" id="Lt2-rR-t0T"/>
+                <outlet property="rainLabel" destination="xhM-uD-ELD" id="Syr-ng-q2q"/>
                 <outlet property="tempLabel" destination="bg5-NH-ESi" id="1SD-pq-TT8"/>
                 <outlet property="windDirectionLabel" destination="d6H-Tb-L81" id="FPA-N9-ytz"/>
                 <outlet property="windGustsLabel" destination="mjd-3B-uUS" id="wSb-ic-6EE"/>
