@@ -19,5 +19,10 @@ class FieldCollectionViewCell: UICollectionViewCell {
     class func getNibName() -> String {
         return NibNameValue
     }
+    
+    class func getNibNameSearch() -> String {
+        return NibNameValueSearch
+    }
+
 
 }

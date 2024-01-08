@@ -4,9 +4,51 @@ import UIKit
 
 
 class VerticleTitleTwoSubTitleTableViewCell: TitleTwoSubTitleTableViewCell {
-    static let height: CGFloat = 45
-    static let normalLabelHeightTotal = 45
 
+    @IBOutlet weak var tempLabel: UILabel! {
+        didSet {
+            apparemntTempLabel.textColor = UIColor.white
+        }
+    }
+
+    
+    @IBOutlet weak var cloudCoverLabel: UILabel! {
+        didSet {
+            cloudCoverLabel.textColor = UIColor.white
+        }
+    }
+        
+    @IBOutlet weak var rainLabel: UILabel! {
+        didSet {
+            rainLabel.textColor = UIColor.white
+        }
+    }
+
+    @IBOutlet weak var apparemntTempLabel: UILabel! {
+        didSet {
+            apparemntTempLabel.textColor = UIColor.white
+        }
+    }
+
+    @IBOutlet weak var intervalLabel: UILabel! {
+        didSet {
+            intervalLabel.textColor = UIColor.white
+        }
+    }
+
+    @IBOutlet weak var windGustsLabel: UILabel! {
+        didSet {
+            windGustsLabel.textColor = UIColor.white
+        }
+    }
+    
+    @IBOutlet weak var windDirectionLabel: UILabel! {
+        didSet {
+            windDirectionLabel.textColor = UIColor.white
+        }
+    }
+
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

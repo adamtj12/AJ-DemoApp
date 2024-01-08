@@ -7,6 +7,8 @@ typealias TableViewRowSelectedAction = (_ indexPath: IndexPath, _ object: NSMana
 
 protocol TableViewModel: ViewModel {
     var cellIdentifier: String { get set }
+    var cellIdentifierSearch: String { get set }
+
     var containingVC: UIViewController! { get set }
     var rowSelectedAction: TableViewRowSelectedAction? { get }
     
@@ -22,12 +24,12 @@ protocol TableViewModel: ViewModel {
     
     func getCellId(_ object: NSManagedObject) -> String
         
-    func configureCellForRate(_ cell: DefaultTableViewCell, object: [RatesValues], indexPath: IndexPath) -> DefaultTableViewCell
+    func configureCellForWeather(_ cell: DefaultTableViewCell, object: [WeatherInformation], indexPath: IndexPath) -> DefaultTableViewCell
+
+    func configureCellForSearch(_ cell: DefaultTableViewCell, object: [Geolocation], indexPath: IndexPath) -> DefaultTableViewCell
 
     func handleDidSelectOnTable(indexPath: IndexPath)
     
-    func handleDidDeSelectOnTable(indexPath: IndexPath)
-
     func getHeight(_ indexPath: IndexPath, object: NSManagedObject?) -> CGFloat
                 
     func viewWillAppear()

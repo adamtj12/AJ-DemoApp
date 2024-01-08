@@ -7,7 +7,6 @@ enum HTTPParameter: CustomStringConvertible, Decodable {
 	case bool(Bool)
 	case int(Int)
 	case double(Double)
-    case float(Float)
 
 	init(from decoder: Decoder) throws {
 		let container = try decoder.singleValueContainer()
@@ -20,10 +19,8 @@ enum HTTPParameter: CustomStringConvertible, Decodable {
 			self = .int(int)
 		} else if let double = try? container.decode(Double.self) {
 			self = .double(double)
-		} else if let float = try? container.decode(Float.self) {
-            self = .float(float)
-        } else {
-			throw ErrorModel.decoding
+		} else {
+			throw ExchangeRatesError.decoding
 		}
 	}
 
@@ -37,8 +34,6 @@ enum HTTPParameter: CustomStringConvertible, Decodable {
 			return String(describing: int)
 		case .double(let double):
 			return String(describing: double)
-        case .float(let float):
-            return String(describing: float)
 		}
 	}
 }

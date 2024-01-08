@@ -4,7 +4,7 @@
 import UIKit
 
 typealias SwitchToggledClosure = (_ isEnabled: Bool) -> ()
-typealias MapPressedClosure = (_ coordinates: RatesValues) -> ()
+//typealias MapPressedClosure = (_ coordinates: RatesValues) -> ()
 
 class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
     static let CellIdentifier = "Title+TwoSubTitleTableViewCell"
@@ -18,17 +18,8 @@ class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
         }
     }
     
-    @IBOutlet weak var firstSubtitleLabel: UILabel! {
-        didSet {
-            firstSubtitleLabel.textColor = UIColor.white
-        }
-    }
-    
-    @IBOutlet weak var secondSubtitleLabel: UILabel! {
-        didSet {
-            firstSubtitleLabel.textColor = UIColor.white
-        }
-    }
+
+
 
     @IBOutlet weak var favouriteToggle: UISwitch!
     
@@ -42,8 +33,7 @@ class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        titleLabel.addObserver(self, forKeyPath: "text", options: .new, context: nil)
-        firstSubtitleLabel.addObserver(self, forKeyPath: "text", options: .new, context: nil)
+        //titleLabel.addObserver(self, forKeyPath: "text", options: .new, context: nil)
         
         self.preservesSuperviewLayoutMargins = false
         self.separatorInset = UIEdgeInsets.zero
@@ -51,8 +41,7 @@ class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
     }
     
     deinit {
-        titleLabel.removeObserver(self, forKeyPath: "text")
-        firstSubtitleLabel.removeObserver(self, forKeyPath: "text")
+       //titleLabel.removeObserver(self, forKeyPath: "text")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

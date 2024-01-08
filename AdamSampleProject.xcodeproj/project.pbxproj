@@ -3,18 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D02A0512816CF14005FE37D /* Rates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02A04D2816CF14005FE37D /* Rates+CoreDataClass.swift */; };
-		8D02A0522816CF14005FE37D /* Rates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02A04E2816CF14005FE37D /* Rates+CoreDataProperties.swift */; };
-		8D02A0532816CF14005FE37D /* RatesValues+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02A04F2816CF14005FE37D /* RatesValues+CoreDataClass.swift */; };
-		8D02A0542816CF14005FE37D /* RatesValues+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02A0502816CF14005FE37D /* RatesValues+CoreDataProperties.swift */; };
 		8D0967E226EDFB6E002E18F1 /* NSManagedObjectInitialiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0967E126EDFB6E002E18F1 /* NSManagedObjectInitialiser.swift */; };
 		8D0967E426EDFBD3002E18F1 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0967E326EDFBD3002E18F1 /* CoreDataHelper.swift */; };
 		8D0967E526EE0824002E18F1 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		8D0A76B526EBD598009E7D0D /* CurrencyTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76B426EBD598009E7D0D /* CurrencyTableViewModel.swift */; };
+		8D0A76B526EBD598009E7D0D /* WeatherTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76B426EBD598009E7D0D /* WeatherTableViewModel.swift */; };
 		8D0A76B726EBD651009E7D0D /* ViewWithViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76B626EBD651009E7D0D /* ViewWithViewModelProtocol.swift */; };
 		8D0A76B926EBD673009E7D0D /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76B826EBD673009E7D0D /* ViewModelProtocol.swift */; };
 		8D0A76BB26EBD71E009E7D0D /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76BA26EBD71E009E7D0D /* TableViewModel.swift */; };
@@ -23,35 +19,36 @@
 		8D0A76C526ECB112009E7D0D /* VerticleTitleTwoSubTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A76C426ECB112009E7D0D /* VerticleTitleTwoSubTitleTableViewCell.swift */; };
 		8D1FF7CB26EBA65A00DD857B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7CA26EBA65A00DD857B /* AppDelegate.swift */; };
 		8D1FF7CD26EBA65A00DD857B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7CC26EBA65A00DD857B /* SceneDelegate.swift */; };
-		8D1FF7CF26EBA65A00DD857B /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7CE26EBA65A00DD857B /* CurrencyViewController.swift */; };
+		8D1FF7CF26EBA65A00DD857B /* WeatherInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7CE26EBA65A00DD857B /* WeatherInformationViewController.swift */; };
 		8D1FF7D226EBA65A00DD857B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FF7D026EBA65A00DD857B /* Main.storyboard */; };
 		8D1FF7D726EBA65A00DD857B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FF7D626EBA65A00DD857B /* Assets.xcassets */; };
 		8D1FF7DA26EBA65A00DD857B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1FF7D826EBA65A00DD857B /* LaunchScreen.storyboard */; };
 		8D1FF7E526EBA65A00DD857B /* AdamSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7E426EBA65A00DD857B /* AdamSampleProjectTests.swift */; };
 		8D1FF7F026EBA65A00DD857B /* AdamSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */; };
-		8D28657428196E320084172E /* HistoricalRates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657228196E320084172E /* HistoricalRates+CoreDataClass.swift */; };
-		8D28657528196E320084172E /* HistoricalRates +CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657328196E320084172E /* HistoricalRates +CoreDataProperties.swift */; };
-		8D286578281BFCC90084172E /* CurrencyCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D286577281BFCC80084172E /* CurrencyCompareViewController.swift */; };
 		8D28657A281E9F320084172E /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D286579281E9F310084172E /* CollectionViewModel.swift */; };
-		8D28657C281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657B281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift */; };
 		8D286581281EA7040084172E /* FieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */; };
 		8D286582281EA7040084172E /* FieldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D286580281EA7040084172E /* FieldCollectionViewCell.xib */; };
 		8D4FC6F5282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */; };
+		8D53167E2B46D6900030D943 /* WeatherInformation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D53167C2B46D6900030D943 /* WeatherInformation+CoreDataProperties.swift */; };
+		8D53167F2B46D6900030D943 /* WeatherInformation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D53167D2B46D6900030D943 /* WeatherInformation+CoreDataClass.swift */; };
+		8D5316822B481B7B0030D943 /* SHSearchBar in Frameworks */ = {isa = PBXBuildFile; productRef = 8D5316812B481B7B0030D943 /* SHSearchBar */; };
+		8D5316852B4828FA0030D943 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5316832B4828FA0030D943 /* SearchTableViewCell.swift */; };
+		8D5316882B482BBB0030D943 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5316872B482BBB0030D943 /* SearchTableViewCell.xib */; };
+		8D53168B2B4B40890030D943 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5316892B4B40890030D943 /* ErrorModel.swift */; };
+		8D53168E2B4C02D50030D943 /* CellSizings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D53168D2B4C02D50030D943 /* CellSizings.swift */; };
 		8D6BD99327EC958B00A2F3D6 /* APIDeclarations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD99227EC958B00A2F3D6 /* APIDeclarations.swift */; };
 		8D6BD99627ECB5DE00A2F3D6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BD99527ECB5DE00A2F3D6 /* MasterViewController.swift */; };
 		8DB9FDF126EBBB9D007D4FF5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDED26EBBB9D007D4FF5 /* APIClient.swift */; };
 		8DB9FDFB26EBBBE8007D4FF5 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDF726EBBBE8007D4FF5 /* APIRequest.swift */; };
-		8DB9FDFD26EBBBE8007D4FF5 /* ExchangeRatesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDF926EBBBE8007D4FF5 /* ExchangeRatesResponse.swift */; };
 		8DB9FDFE26EBBBE8007D4FF5 /* DecodableModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDF526EBBBE7007D4FF5 /* DecodableModels.swift */; };
-		8DB9FDFF26EBBBE8007D4FF5 /* ExchangeRatesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FDF826EBBBE8007D4FF5 /* ExchangeRatesError.swift */; };
 		8DB9FE0826EBBBEF007D4FF5 /* HTTPParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FE0626EBBBEF007D4FF5 /* HTTPParameter.swift */; };
-		8DB9FE0A26EBBBEF007D4FF5 /* GetExchangeRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FE0326EBBBEF007D4FF5 /* GetExchangeRates.swift */; };
+		8DB9FE0A26EBBBEF007D4FF5 /* APIResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9FE0326EBBBEF007D4FF5 /* APIResources.swift */; };
 		8DBFD55F281FFF7400FEDAE6 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFD55E281FFF7400FEDAE6 /* Threading.swift */; };
 		8DBFD5652820087800FEDAE6 /* Title+TwoSubTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBFD5642820087800FEDAE6 /* Title+TwoSubTitleTableViewCell.xib */; };
 		8DBFD5672820087F00FEDAE6 /* Title+TwoSubTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFD5662820087F00FEDAE6 /* Title+TwoSubTitleTableViewCell.swift */; };
 		8DBFD56B28204D1E00FEDAE6 /* KeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFD56A28204D1D00FEDAE6 /* KeyboardExtension.swift */; };
 		8DBFD56D28204F8400FEDAE6 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFD56C28204F8400FEDAE6 /* Strings.swift */; };
-		8DFB14A326F7608F0031DC39 /* CurrencyViewController+Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB14A226F7608F0031DC39 /* CurrencyViewController+Segues.swift */; };
+		8DFB14A326F7608F0031DC39 /* WeatherInformationViewController+Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFB14A226F7608F0031DC39 /* WeatherInformationViewController+Segues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,13 +69,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D02A04D2816CF14005FE37D /* Rates+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rates+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8D02A04E2816CF14005FE37D /* Rates+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rates+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8D02A04F2816CF14005FE37D /* RatesValues+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RatesValues+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8D02A0502816CF14005FE37D /* RatesValues+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RatesValues+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8D0967E126EDFB6E002E18F1 /* NSManagedObjectInitialiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectInitialiser.swift; sourceTree = "<group>"; };
 		8D0967E326EDFBD3002E18F1 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
-		8D0A76B426EBD598009E7D0D /* CurrencyTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewModel.swift; sourceTree = "<group>"; };
+		8D0A76B426EBD598009E7D0D /* WeatherTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewModel.swift; sourceTree = "<group>"; };
 		8D0A76B626EBD651009E7D0D /* ViewWithViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWithViewModelProtocol.swift; sourceTree = "<group>"; };
 		8D0A76B826EBD673009E7D0D /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		8D0A76BA26EBD71E009E7D0D /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
@@ -88,7 +81,7 @@
 		8D1FF7C726EBA65A00DD857B /* AdamSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdamSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1FF7CA26EBA65A00DD857B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D1FF7CC26EBA65A00DD857B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D1FF7CE26EBA65A00DD857B /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		8D1FF7CE26EBA65A00DD857B /* WeatherInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformationViewController.swift; sourceTree = "<group>"; };
 		8D1FF7D126EBA65A00DD857B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D1FF7D626EBA65A00DD857B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1FF7D926EBA65A00DD857B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,29 +92,29 @@
 		8D1FF7EB26EBA65A00DD857B /* AdamSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1FF7EF26EBA65A00DD857B /* AdamSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamSampleProjectUITests.swift; sourceTree = "<group>"; };
 		8D1FF7F126EBA65A00DD857B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D28657228196E320084172E /* HistoricalRates+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoricalRates+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8D28657328196E320084172E /* HistoricalRates +CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoricalRates +CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8D286577281BFCC80084172E /* CurrencyCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCompareViewController.swift; sourceTree = "<group>"; };
 		8D286579281E9F310084172E /* CollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
-		8D28657B281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRatesHistoryCollectionViewModel.swift; sourceTree = "<group>"; };
 		8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		8D286580281EA7040084172E /* FieldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldCollectionViewCell.xib; sourceTree = "<group>"; };
 		8D4FC6F4282157A500F8D9C3 /* AdamSampleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdamSampleProject.xcdatamodel; sourceTree = "<group>"; };
+		8D53167C2B46D6900030D943 /* WeatherInformation+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WeatherInformation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8D53167D2B46D6900030D943 /* WeatherInformation+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WeatherInformation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8D5316832B4828FA0030D943 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		8D5316872B482BBB0030D943 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		8D5316892B4B40890030D943 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		8D53168D2B4C02D50030D943 /* CellSizings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSizings.swift; sourceTree = "<group>"; };
 		8D6BD99227EC958B00A2F3D6 /* APIDeclarations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDeclarations.swift; sourceTree = "<group>"; };
 		8D6BD99527ECB5DE00A2F3D6 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = "AdamSampleProject/View Controllers/MasterViewController.swift"; sourceTree = SOURCE_ROOT; };
 		8DB9FDED26EBBB9D007D4FF5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		8DB9FDF526EBBBE7007D4FF5 /* DecodableModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableModels.swift; sourceTree = "<group>"; };
 		8DB9FDF726EBBBE8007D4FF5 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		8DB9FDF826EBBBE8007D4FF5 /* ExchangeRatesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesError.swift; sourceTree = "<group>"; };
-		8DB9FDF926EBBBE8007D4FF5 /* ExchangeRatesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesResponse.swift; sourceTree = "<group>"; };
-		8DB9FE0326EBBBEF007D4FF5 /* GetExchangeRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetExchangeRates.swift; sourceTree = "<group>"; };
+		8DB9FE0326EBBBEF007D4FF5 /* APIResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResources.swift; sourceTree = "<group>"; };
 		8DB9FE0626EBBBEF007D4FF5 /* HTTPParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPParameter.swift; sourceTree = "<group>"; };
 		8DBFD55E281FFF7400FEDAE6 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		8DBFD5642820087800FEDAE6 /* Title+TwoSubTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Title+TwoSubTitleTableViewCell.xib"; sourceTree = "<group>"; };
 		8DBFD5662820087F00FEDAE6 /* Title+TwoSubTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Title+TwoSubTitleTableViewCell.swift"; sourceTree = "<group>"; };
 		8DBFD56A28204D1D00FEDAE6 /* KeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtension.swift; sourceTree = "<group>"; };
 		8DBFD56C28204F8400FEDAE6 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		8DFB14A226F7608F0031DC39 /* CurrencyViewController+Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrencyViewController+Segues.swift"; sourceTree = "<group>"; };
+		8DFB14A226F7608F0031DC39 /* WeatherInformationViewController+Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherInformationViewController+Segues.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5316822B481B7B0030D943 /* SHSearchBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +146,8 @@
 		8D0A76CA26ECBCA4009E7D0D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8D5316872B482BBB0030D943 /* SearchTableViewCell.xib */,
+				8D5316832B4828FA0030D943 /* SearchTableViewCell.swift */,
 				8DBFD5642820087800FEDAE6 /* Title+TwoSubTitleTableViewCell.xib */,
 				8DBFD5662820087F00FEDAE6 /* Title+TwoSubTitleTableViewCell.swift */,
 				8D28657F281EA7030084172E /* FieldCollectionViewCell.swift */,
@@ -169,8 +165,7 @@
 				8D0A76CA26ECBCA4009E7D0D /* Cells */,
 				8DFB14A126F7605C0031DC39 /* Extension */,
 				8D6BD99527ECB5DE00A2F3D6 /* MasterViewController.swift */,
-				8D286577281BFCC80084172E /* CurrencyCompareViewController.swift */,
-				8D1FF7CE26EBA65A00DD857B /* CurrencyViewController.swift */,
+				8D1FF7CE26EBA65A00DD857B /* WeatherInformationViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -179,9 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				8D0A76BA26EBD71E009E7D0D /* TableViewModel.swift */,
-				8D0A76B426EBD598009E7D0D /* CurrencyTableViewModel.swift */,
+				8D0A76B426EBD598009E7D0D /* WeatherTableViewModel.swift */,
 				8D286579281E9F310084172E /* CollectionViewModel.swift */,
-				8D28657B281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift */,
 				8D0A76B626EBD651009E7D0D /* ViewWithViewModelProtocol.swift */,
 				8D0A76B826EBD673009E7D0D /* ViewModelProtocol.swift */,
 			);
@@ -194,6 +188,7 @@
 				8DBFD55E281FFF7400FEDAE6 /* Threading.swift */,
 				8DBFD56A28204D1D00FEDAE6 /* KeyboardExtension.swift */,
 				8DBFD56C28204F8400FEDAE6 /* Strings.swift */,
+				8D53168D2B4C02D50030D943 /* CellSizings.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -265,11 +260,10 @@
 			children = (
 				8D6BD99427EC980100A2F3D6 /* Request Models */,
 				8D6BD99227EC958B00A2F3D6 /* APIDeclarations.swift */,
+				8D5316892B4B40890030D943 /* ErrorModel.swift */,
 				8DB9FDED26EBBB9D007D4FF5 /* APIClient.swift */,
 				8DB9FDF726EBBBE8007D4FF5 /* APIRequest.swift */,
-				8DB9FDF826EBBBE8007D4FF5 /* ExchangeRatesError.swift */,
-				8DB9FDF926EBBBE8007D4FF5 /* ExchangeRatesResponse.swift */,
-				8DB9FE0326EBBBEF007D4FF5 /* GetExchangeRates.swift */,
+				8DB9FE0326EBBBEF007D4FF5 /* APIResources.swift */,
 				8DB9FE0626EBBBEF007D4FF5 /* HTTPParameter.swift */,
 			);
 			path = requests;
@@ -331,12 +325,8 @@
 		8DB2513126F1E07B00DABB3D /* Core Data Managed Objects */ = {
 			isa = PBXGroup;
 			children = (
-				8D28657328196E320084172E /* HistoricalRates +CoreDataProperties.swift */,
-				8D28657228196E320084172E /* HistoricalRates+CoreDataClass.swift */,
-				8D02A04D2816CF14005FE37D /* Rates+CoreDataClass.swift */,
-				8D02A04E2816CF14005FE37D /* Rates+CoreDataProperties.swift */,
-				8D02A04F2816CF14005FE37D /* RatesValues+CoreDataClass.swift */,
-				8D02A0502816CF14005FE37D /* RatesValues+CoreDataProperties.swift */,
+				8D53167C2B46D6900030D943 /* WeatherInformation+CoreDataProperties.swift */,
+				8D53167D2B46D6900030D943 /* WeatherInformation+CoreDataClass.swift */,
 			);
 			path = "Core Data Managed Objects";
 			sourceTree = "<group>";
@@ -344,7 +334,7 @@
 		8DFB14A126F7605C0031DC39 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8DFB14A226F7608F0031DC39 /* CurrencyViewController+Segues.swift */,
+				8DFB14A226F7608F0031DC39 /* WeatherInformationViewController+Segues.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -365,6 +355,9 @@
 			dependencies = (
 			);
 			name = AdamSampleProject;
+			packageProductDependencies = (
+				8D5316812B481B7B0030D943 /* SHSearchBar */,
+			);
 			productName = AdamSampleProject;
 			productReference = 8D1FF7C726EBA65A00DD857B /* AdamSampleProject.app */;
 			productType = "com.apple.product-type.application";
@@ -437,6 +430,7 @@
 			);
 			mainGroup = 8D1FF7BE26EBA65900DD857B;
 			packageReferences = (
+				8D5316802B481B7B0030D943 /* XCRemoteSwiftPackageReference "SHSearchBar" */,
 			);
 			productRefGroup = 8D1FF7C826EBA65A00DD857B /* Products */;
 			projectDirPath = "";
@@ -458,6 +452,7 @@
 				8D1FF7D726EBA65A00DD857B /* Assets.xcassets in Resources */,
 				8D1FF7D226EBA65A00DD857B /* Main.storyboard in Resources */,
 				8DBFD5652820087800FEDAE6 /* Title+TwoSubTitleTableViewCell.xib in Resources */,
+				8D5316882B482BBB0030D943 /* SearchTableViewCell.xib in Resources */,
 				8D286582281EA7040084172E /* FieldCollectionViewCell.xib in Resources */,
 				8D0A76C326ECB104009E7D0D /* VerticleTitleTwoSubTitleTableViewCell.xib in Resources */,
 			);
@@ -488,39 +483,34 @@
 				8D4FC6F5282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld in Sources */,
 				8DBFD56B28204D1E00FEDAE6 /* KeyboardExtension.swift in Sources */,
 				8D6BD99627ECB5DE00A2F3D6 /* MasterViewController.swift in Sources */,
-				8D02A0522816CF14005FE37D /* Rates+CoreDataProperties.swift in Sources */,
-				8D0A76B526EBD598009E7D0D /* CurrencyTableViewModel.swift in Sources */,
-				8D1FF7CF26EBA65A00DD857B /* CurrencyViewController.swift in Sources */,
+				8D0A76B526EBD598009E7D0D /* WeatherTableViewModel.swift in Sources */,
+				8D53168B2B4B40890030D943 /* ErrorModel.swift in Sources */,
+				8D1FF7CF26EBA65A00DD857B /* WeatherInformationViewController.swift in Sources */,
 				8DBFD5672820087F00FEDAE6 /* Title+TwoSubTitleTableViewCell.swift in Sources */,
+				8D53167F2B46D6900030D943 /* WeatherInformation+CoreDataClass.swift in Sources */,
 				8D0967E226EDFB6E002E18F1 /* NSManagedObjectInitialiser.swift in Sources */,
 				8DB9FDF126EBBB9D007D4FF5 /* APIClient.swift in Sources */,
 				8D6BD99327EC958B00A2F3D6 /* APIDeclarations.swift in Sources */,
-				8D28657C281EA1240084172E /* CurrencyRatesHistoryCollectionViewModel.swift in Sources */,
-				8D28657528196E320084172E /* HistoricalRates +CoreDataProperties.swift in Sources */,
-				8D02A0542816CF14005FE37D /* RatesValues+CoreDataProperties.swift in Sources */,
 				8D0A76B726EBD651009E7D0D /* ViewWithViewModelProtocol.swift in Sources */,
 				8DB9FE0826EBBBEF007D4FF5 /* HTTPParameter.swift in Sources */,
-				8D28657428196E320084172E /* HistoricalRates+CoreDataClass.swift in Sources */,
-				8D286578281BFCC90084172E /* CurrencyCompareViewController.swift in Sources */,
 				8DB9FDFE26EBBBE8007D4FF5 /* DecodableModels.swift in Sources */,
 				8DBFD56D28204F8400FEDAE6 /* Strings.swift in Sources */,
 				8D28657A281E9F320084172E /* CollectionViewModel.swift in Sources */,
 				8D0967E526EE0824002E18F1 /* (null) in Sources */,
 				8D0A76B926EBD673009E7D0D /* ViewModelProtocol.swift in Sources */,
+				8D53168E2B4C02D50030D943 /* CellSizings.swift in Sources */,
 				8D0A76BB26EBD71E009E7D0D /* TableViewModel.swift in Sources */,
 				8D1FF7CB26EBA65A00DD857B /* AppDelegate.swift in Sources */,
 				8D0967E426EDFBD3002E18F1 /* CoreDataHelper.swift in Sources */,
 				8D1FF7CD26EBA65A00DD857B /* SceneDelegate.swift in Sources */,
-				8DB9FDFD26EBBBE8007D4FF5 /* ExchangeRatesResponse.swift in Sources */,
-				8DB9FDFF26EBBBE8007D4FF5 /* ExchangeRatesError.swift in Sources */,
+				8D5316852B4828FA0030D943 /* SearchTableViewCell.swift in Sources */,
 				8D0A76BD26EBD79D009E7D0D /* DefaultTableViewCell.swift in Sources */,
 				8DB9FDFB26EBBBE8007D4FF5 /* APIRequest.swift in Sources */,
-				8D02A0532816CF14005FE37D /* RatesValues+CoreDataClass.swift in Sources */,
 				8D0A76C526ECB112009E7D0D /* VerticleTitleTwoSubTitleTableViewCell.swift in Sources */,
-				8D02A0512816CF14005FE37D /* Rates+CoreDataClass.swift in Sources */,
-				8DFB14A326F7608F0031DC39 /* CurrencyViewController+Segues.swift in Sources */,
-				8DB9FE0A26EBBBEF007D4FF5 /* GetExchangeRates.swift in Sources */,
+				8DFB14A326F7608F0031DC39 /* WeatherInformationViewController+Segues.swift in Sources */,
+				8DB9FE0A26EBBBEF007D4FF5 /* APIResources.swift in Sources */,
 				8D286581281EA7040084172E /* FieldCollectionViewCell.swift in Sources */,
+				8D53167E2B46D6900030D943 /* WeatherInformation+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,6 +848,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D5316802B481B7B0030D943 /* XCRemoteSwiftPackageReference "SHSearchBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Blackjacx/SHSearchBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D5316812B481B7B0030D943 /* SHSearchBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D5316802B481B7B0030D943 /* XCRemoteSwiftPackageReference "SHSearchBar" */;
+			productName = SHSearchBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8D4FC6F3282157A500F8D9C3 /* AdamSampleProject.xcdatamodeld */ = {
