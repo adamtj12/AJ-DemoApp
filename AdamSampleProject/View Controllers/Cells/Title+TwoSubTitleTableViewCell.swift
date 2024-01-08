@@ -14,7 +14,7 @@ class TitleTwoSubTitleTableViewCell: DefaultTableViewCell {
             titleLabel.textColor = UIColor.white
         }
     }
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         self.preservesSuperviewLayoutMargins = false
